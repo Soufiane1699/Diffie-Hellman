@@ -1,4 +1,4 @@
-package dh;
+package diffieHellman;
 
 import java.math.BigInteger;
 import java.util.Random;
