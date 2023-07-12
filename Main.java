@@ -1,15 +1,15 @@
-package diffieHellman;
-import dhexchange.Alice;
+package dh;
 import java.math.BigInteger;
 import java.util.Scanner;
 import java.util.Random;
 
 public class Main {
-    static int numbits = 256;
+    static int numbits = 512;
     static Random rnd = new Random();
-    private static final BigInteger p = new BigInteger(numbits, rnd);
+    private static final BigInteger p = Prime_Generator.generatePrime(64);
     private static final BigInteger g = new BigInteger(numbits, rnd);
     private BigInteger shared_secret;
+    private BigInteger alice_secret;
 
     public static class KeyError extends Exception{
         public KeyError() {
@@ -25,10 +25,9 @@ public class Main {
         System.out.println(" |        | ");
         System.out.println("/ \\      / \\");
         System.out.println("Diffie-Hellman Key Exchange");
-        System.out.println("Wert für p: " + p + "\n" + "Wert für g: " +  g);
+        System.out.println("Zufälliger-Wert für p (Primzahl): " + p + "\n" + "Zufälliger Wert für g: " +  g);
         System.out.println("Geben Sie einen Wert für Alice ein: ");
         BigInteger alice_secret  = sc.nextBigInteger();
-        Alice alice = new Alice(alice_secret);
         System.out.println("Geben Sie einen Wert für Bob ein: ");
         BigInteger bob_secret = sc.nextBigInteger();
         System.out.println("Alice-Wert: " + alice_secret);
