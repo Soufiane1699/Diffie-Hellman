@@ -11,4 +11,4 @@
 
 ### Besondere ist A = g^(a) mod p 
 - ist einfach auszurechnen aber umzukehren heißt a herauszufinden wenn A,g,p gegeben ist 
-- > Diskrete Logarithmusproblem 
+-> Diskrete Logarithmusproblem 
