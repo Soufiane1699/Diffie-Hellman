@@ -1,3 +1,4 @@
+## Gemeinsamer Schlüsel 
 - Nur Alice und Bob kennen K
 - aufgrund des diskreten Logarithmus kann Eve nicht K aus der abhörten Kommunikation nicht berechnen 
 - Alice und Bob können gefarhlos für eine symmetrische Verschlüsselung nutzen

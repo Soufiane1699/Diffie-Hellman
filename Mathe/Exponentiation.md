@@ -1,4 +1,5 @@
-## Die Exponentiation spielt eine zentrale Rolle beim Diffie-Hellman Schlüsselaustausch
+## Die Exponentiation 
+- spielt eine zentrale Rolle beim Diffie-Hellman Schlüsselaustausch  
 - mathematische Operation die auf zwei Zahlen Basis b und Exponenten n ausgeführt wird
 - b zur Potenz n oder b hoch n
 
