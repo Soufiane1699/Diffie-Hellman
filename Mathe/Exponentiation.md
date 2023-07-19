@@ -10,5 +10,5 @@
     - S = B^(a) mod p
 
 ### Besondere ist A = g^(a) mod p 
-- ist einfach auszurechnen aber umzukehren heißt a herauszufinden wenn A,g,p gegeben ist 
+- ist einfach auszurechnen aber umzukehren heißt a herauszufinden wenn A,g,p gegeben ist  
 -> Diskrete Logarithmusproblem 
