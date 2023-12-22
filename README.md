@@ -16,3 +16,6 @@
     - BSI empfielt eine Schlüssellänge für p von mindestens 3000 Bit (Quelle: https://www.bsi.bund.de/SharedDocs/Downloads/DE/BSI/Publikationen/TechnischeRichtlinien/TR02102/BSI-TR-02102.html)
 
 ![Key-Exchange](Key-Exchange.jpeg)
+
+## Bedeutung von groß A (Public Key von Alice) und groß B (Public Key von Bob) am Beispiel TLS 1.3
+- Beim TLS 1.3 Handshake wird in der ClientHello sowie im ServerHello jeweils der Public Key mitgesendet damit lässt sich der Sitzungsschlüssel auf beiden Seiten berechnen
